@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Servicios Argentina",
+    "slug": "servicios-argentina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "servicios-ar",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.toledoconsultora.serviciosargentina",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Necesitamos tu ubicación para encontrar servicios cercanos"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#895bf5"
+      },
+      "package": "com.toledoconsultora.serviciosargentina",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
