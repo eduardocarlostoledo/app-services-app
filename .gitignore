@@ -6,6 +6,7 @@ node_modules/
 .env.*.local
 android/.gradle/
 android/app/build/
+android/app/debug.keystore
 dist/
 web-build/
 *.log
